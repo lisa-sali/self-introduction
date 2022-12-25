@@ -17,7 +17,7 @@ $(function () {
       transform: "translateY(" + fade_move + "px)",
       transition: fade_time + "ms",
     });
-    // スクロールまたはロードするたびに実行
+     
     $(window).on("scroll load", function () {
       const scroll_top = $(this).scrollTop();
       const scroll_bottom = scroll_top + $(this).height();
