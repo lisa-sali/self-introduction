@@ -329,7 +329,7 @@ img{
 @media screen and (max-width:428px) {
     .mv-1920{ display: none !important;}
     .mv-768{ display: block !important;
-            padding-top: 71px;}
+            padding-top: 9vw;}
     
 }
 
@@ -1221,5 +1221,6 @@ img{
         display: block;
     }
 }
+
 
 
