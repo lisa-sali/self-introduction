@@ -225,6 +225,17 @@ img{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-family: 'Zen Maru Gothic', sans-serif;
 }
+@media screen and (max-width:1600px) {
+    .nav-list{
+        display: flex;
+        width: 35vw;
+        padding: 0;
+        list-style: none;
+        font-family: 'Kalam', cursive;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+    }
+}
 @media screen and (max-width:768px) {
     .nav-list{
         display: none;
@@ -238,7 +249,7 @@ img{
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 553px;
+        height: 690px;
         z-index:70;
         font-family: 'Kalam', cursive;
         font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -261,7 +272,7 @@ img{
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 343px;
+        height: 445px;
         z-index:70;
         font-family: 'Kalam', cursive;
         font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -991,8 +1002,14 @@ img{
 /*section-Work*/
 .section-Work{
     margin-top: 15vw;
-    margin-bottom: 13.4vw;
+    margin-bottom: 10vw;
     color: #332E01;
+}
+@media screen and (max-width:1600px) {
+    .section-Work{
+        margin-top: 5vw;
+        color: #332E01;
+    }
 }
 @media screen and (max-width:428px) {
     .section-Work{
@@ -1020,6 +1037,23 @@ img{
     .section-Work-items-title-img{
         width: 24.5vw;
         height: 14.7vw;
+    }
+}
+
+.section-Work-coding{
+    width: 15vw;
+    height: 8vw;
+}
+@media screen and (max-width:768px) {
+    .section-Work-coding{
+        width: 17vw;
+        height: 8vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Work-coding{
+        width: 37vw;
+        height: 18vw;
     }
 }
 
@@ -1081,6 +1115,157 @@ img{
     }
 }
 
+.section-Work-webdesign{
+    margin-top: 9vw;
+    width: 17vw;
+    height: 7vw;
+}
+@media screen and (max-width:768px) {
+    .section-Work-webdesign{
+        width: 27vw;
+        height: 12vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Work-webdesign{
+        width: 38vw;
+        height: 17vw;
+    }
+}
+
+.section-Work-webdesign-IMG-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+}
+
+.section-Work-webdesign-IMG{
+    width: 54%;
+}
+@media screen and (max-width:1600px) {
+    .section-Work-webdesign-IMG{
+        width: 56%;
+    }
+}
+@media screen and (max-width:768px) {
+    .section-Work-webdesign-IMG{
+        width: 68%;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Work-webdesign-IMG{
+        width: 85%;
+    }
+}
+
+.section-Work-webdesign-img{
+    width: 12vw;
+    height: 16vw;
+    margin-right: 18px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .section-Work-webdesign-img{
+        width: 31vw;
+        height: 41vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Work-webdesign-img{
+        width: 39vw;
+        height: 52vw;
+        margin-right: 10px;
+        margin-bottom: 9px;
+    }
+}
+
+
+
+
+/*section-Skill*/
+.section-Skill{
+    margin-bottom: 15vw;
+}
+
+.section-Skill-title-img{
+    margin: auto;
+    width: 12vw;
+    height: 6vw;
+}
+@media screen and (max-width:768px) {
+    .section-Skill-title-img{
+        width: 15vw;
+        height: 8vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Skill-title-img{
+        width: 27vw;
+        height: 14vw;
+    }
+}
+
+.section-Skill-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+}
+@media screen and (max-width:768px) {
+    .section-Skill-img{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 22vw 22vw ;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Skill-img{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 28vw 28vw ;
+    }
+}
+
+.skill-img{
+    width: 11vw;
+    height: 9vw;
+    margin-right: 50px;
+}
+@media screen and (max-width:768px) {
+    .skill-img{
+        width: 22vw;
+        height: 19vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .skill-img{
+        width: 28vw;
+        height: 24vw;
+    }
+}
+
+.skill-vsc{
+    width: 14vw;
+    height: 9vw;
+}
+@media screen and (max-width:768px) {
+    .skill-vsc{
+        width: 27vw;
+        height: 19vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .skill-vsc{
+        width: 31vw;
+        height:22vw;
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -1090,6 +1275,7 @@ img{
     flex-direction: column;
     align-items: center;
     padding-bottom: 5vw;
+    margin-top: 8vw;
     color: #332E01;
 }
 @media screen and (max-width:428px) {
