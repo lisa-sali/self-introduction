@@ -217,7 +217,7 @@ img{
 
 .nav-list{
     display: flex;
-    width: 31vw;
+    width: 35vw;
     list-style: none;
     font-family: 'Kalam', cursive;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -246,7 +246,7 @@ img{
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 700px;
+        height: 690px;
         z-index:70;
         font-family: 'Kalam', cursive;
         font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -269,7 +269,7 @@ img{
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 458px;
+        height: 455px;
         z-index:70;
         font-family: 'Kalam', cursive;
         font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -317,8 +317,6 @@ img{
 
 
 
-
-
 /*main*/
 .main-section-img{
     text-align: center;
@@ -330,26 +328,41 @@ img{
         margin-top: 0;
     }
 }
+@media screen and (max-width:428px) {
+    .main-section-img{
+        text-align: center;
+        margin-top: 0;
+    }
+}
 
 .main-section-IMG{
     width: 72vw;
-    height: 202vw;
+    height: 233vw;
     text-align: center;
 }
 @media screen and (max-width:768px) {
     .main-section-IMG{
         width: 72vw;
-        height: 202vw;
+        height: 233vw;
         text-align: center;
-        margin-top: 26vw;
+        margin-top: 27vw;
     }
 }
+@media screen and (max-width:428px) {
+    .main-section-IMG{
+        width: 72vw;
+        height: 233vw;
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
 .main-text-item{
     margin-top: 19vw;
 }
 
 .main-text-item div{
-    font-size: 2vw;
+    font-size: 20px;
     font-family: 'Kalam', cursive;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-family: 'Zen Maru Gothic', sans-serif;
