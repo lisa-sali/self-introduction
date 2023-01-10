@@ -1,0 +1,414 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: #FDFBE2;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    padding: 0;
+}
+
+
+/*header*/
+.header{
+    padding: 1vw 4vw 1vw;
+}
+@media screen and (max-width:768px) {
+    .header{
+    position: fixed;
+    width: 100%;
+    height: 14vw;
+    background-color: #fff;
+    padding: 15px 0;
+    z-index: 100;
+}
+}
+@media screen and (max-width:428px) {
+    .header{
+    height: 10vw;
+    display: flex;
+    align-items: flex-end;
+}
+}
+
+.header-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:768px) {
+    .header-inner{
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
+
+.header-logo{display: block !important;}
+.header-logo768{display: none !important;}
+
+.header-logo{
+    width: 622px;
+}
+
+@media screen and (max-width:1600px) {
+    .header-logo{
+        width: 454px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header-logo{
+        width: 38.8vw;
+        height: 13.6vw;
+    }
+    .header-logo{display: none !important;}
+    .header-logo768{display: block !important;}
+
+    .header-logo768{
+        width: 536px;
+        height: 114px;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:428px) {
+    .header-logo{
+        width: 232px;
+        height: 70px;
+        margin-top: 102px;
+    } 
+    .header-logo768{
+        width: 226px;
+        height: 45px;
+        margin-left: 20px;
+    }
+}
+
+.sp-nav-btn{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .sp-nav-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 75px;
+        height: 47px; 
+        margin-right: 50px;
+        transition: all 0.3s linear;
+    }
+
+    .sp-nav-btn div{
+        width: 100%;
+        height: 0.4vw;
+        background-color: #000;
+        transition: all 0.3s linear;
+    }
+
+    .sp-nav-btn.active div{
+        background-color: #000;
+        transition: all 0.3 linear;
+    }
+
+    .sp-nav-btn.active{
+        transition: all 0.3s linear;  
+    }
+
+    .sp-nav-btn.active div:nth-child(1){   
+        transform:translateY(51px) rotate(45deg); 
+        transition: all 0.3s linear;            
+    }
+
+    .sp-nav-btn.active div:nth-child(3){
+        transform: translateY(8px) rotate(-45deg);    
+        transition: all 0.3s linear;
+    }
+
+    .sp-nav-btn.active div:nth-child(2){
+        transition: all 0.3s linear;
+        width: 0;
+    }
+
+    .sp-nav-btn.active{
+        transition: all 0.3s linear; 
+        position: fixed;
+        top: 22px;
+        right: 6px;
+        z-index:80;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .sp-nav-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 47px;
+        height: 29px; 
+        margin-right: 50px;
+        transition: all 0.3s linear;
+    }
+
+    .sp-nav-btn div{
+        width: 100%;
+        height: 0.4vw;
+        background-color: #000;
+        transition: all 0.3s linear;
+    }
+
+    .sp-nav-btn.active div{
+        background-color: #000;
+        transition: all 0.3 linear;
+    }
+
+    .sp-nav-btn.active{
+        transition: all 0.3s linear;  
+    }
+
+    .sp-nav-btn.active div:nth-child(1){   
+        transform:translateY(13px) rotate(45deg); 
+        transition: all 0.3s linear;            
+    }
+
+    .sp-nav-btn.active div:nth-child(3){
+        transform: translateY(-14px) rotate(-45deg);    
+        transition: all 0.3s linear;
+    }
+
+    .sp-nav-btn.active div:nth-child(2){
+        transition: all 0.3s linear;
+        width: 0;
+    }
+
+    .sp-nav-btn.active{
+        transition: all 0.3s linear; 
+        position: fixed;
+        top: 22px;
+        right: 6px;
+        z-index:80;
+    }
+}
+
+.nav{
+    text-align: end;
+}
+
+@media screen and (max-width:1600px) {
+    .nav{
+        text-align: end;
+        margin-right: 65px;
+    }
+}
+.nav{
+    text-align: end;
+}
+
+.nav-list{
+    display: flex;
+    width: 31vw;
+    list-style: none;
+    font-family: 'Kalam', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+@media screen and (max-width:1600px) {
+    .nav-list{
+        display: flex;
+        width: 35vw;
+        list-style: none;
+        font-family: 'Kalam', cursive;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav-list{
+        display: none;
+    }
+    
+    .nav.active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 690px;
+        z-index:70;
+        font-family: 'Kalam', cursive;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+    }
+
+    .nav.active ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .nav.active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 455px;
+        z-index:70;
+        font-family: 'Kalam', cursive;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+    }
+}
+
+.nav-list-item a{
+    text-decoration: none;
+    color: #332E01;
+    font-size:30px;
+    margin-right: 1.5vw;
+}
+@media screen and (max-width:1600px) {
+    .nav-list-item a{
+        text-decoration: none;
+        color: #332E01;
+        font-size:30px;
+        margin-right: 2.5vw;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav-list-item a{
+        display: block;
+        text-decoration: none;
+        color: #332E01;
+        font-size:30px;
+        background-color: #D3D1BF;
+        border:solid 1px #707070;
+        padding: 12px 768px;
+    }
+}
+@media screen and (max-width:428px) {
+    .nav-list-item a{
+        display: block;
+        text-decoration: none;
+        color: #332E01;
+        font-size:20px;
+        background-color: #D3D1BF;
+        border:solid 1px #707070;
+        padding: 10px 768px;
+    }
+}
+
+
+
+
+/*main*/
+.main-section-img{
+    text-align: center;
+    margin-top: 7vw;
+}
+@media screen and (max-width:768px) {
+    .main-section-img{
+        text-align: center;
+        margin-top: 0;
+    }
+}
+
+.main-section-IMG{
+    width: 72vw;
+    height: 366vw;
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+    .main-section-IMG{
+        width: 72vw;
+        height: 366vw;
+        text-align: center;
+        margin-top: 27vw;
+    }
+}
+.main-text-item{
+    margin-top: 19vw;
+}
+
+.main-text-item div{
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+@media screen and (max-width:768px) {
+    .main-text-item div{
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+}
+@media screen and (max-width:428px) {
+    .main-text-item div{
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+}
+
+.main-text-item-ul{
+    margin-top: 7vw;
+}
+
+.main-text-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text-item-ul{
+    list-style: none;
+    padding: 0;
+}
+
+.main-text-item-li{
+    display: flex;
+    border-top:solid 1px #000;
+    padding: 4vw 0;
+}
+
+span,p{
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+@media screen and (max-width:428px) {
+    span,p{
+        font-size: 12px;
+        font-family: 'Kalam', cursive;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
+    }
+}
+
+span{
+    margin-right: 2vw;
+}
+
+p{
+    margin: 0;
+}
