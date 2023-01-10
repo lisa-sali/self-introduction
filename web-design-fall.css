@@ -328,32 +328,18 @@ img{
         margin-top: 0;
     }
 }
-@media screen and (max-width:428px) {
-    .main-section-img{
-        text-align: center;
-        margin-top: 0;
-    }
-}
 
 .main-section-IMG{
     width: 72vw;
-    height: 233vw;
+    height: 242vw;
     text-align: center;
 }
 @media screen and (max-width:768px) {
     .main-section-IMG{
         width: 72vw;
-        height: 233vw;
+        height: 242vw;
         text-align: center;
         margin-top: 27vw;
-    }
-}
-@media screen and (max-width:428px) {
-    .main-section-IMG{
-        width: 72vw;
-        height: 233vw;
-        text-align: center;
-        margin-top: 0;
     }
 }
 
