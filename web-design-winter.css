@@ -330,7 +330,7 @@ img{
         margin-top: 0;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:428px) {
     .main-section-img{
         text-align: center;
         margin-top: 0;
@@ -348,6 +348,14 @@ img{
         height: 202vw;
         text-align: center;
         margin-top: 26vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .main-section-IMG{
+        width: 72vw;
+        height: 202vw;
+        text-align: center;
+        margin-top: 0;
     }
 }
 
