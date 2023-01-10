@@ -1023,6 +1023,23 @@ img{
     }
 }
 
+.section-Work-coding{
+    width: 15vw;
+    height: 8vw;
+}
+@media screen and (max-width:768px) {
+    .section-Work-coding{
+        width: 17vw;
+        height: 8vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Work-coding{
+        width: 37vw;
+        height: 18vw;
+    }
+}
+
 .section-Work-item{
     display: flex;
     flex-direction: column;
