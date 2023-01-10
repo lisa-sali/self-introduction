@@ -217,7 +217,7 @@ img{
 
 .nav-list{
     display: flex;
-    width: 35vw;
+    width: 31vw;
     list-style: none;
     font-family: 'Kalam', cursive;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -246,7 +246,7 @@ img{
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 690px;
+        height: 700px;
         z-index:70;
         font-family: 'Kalam', cursive;
         font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -269,7 +269,7 @@ img{
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 455px;
+        height: 458px;
         z-index:70;
         font-family: 'Kalam', cursive;
         font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -317,6 +317,8 @@ img{
 
 
 
+
+
 /*main*/
 .main-section-img{
     text-align: center;
@@ -331,24 +333,23 @@ img{
 
 .main-section-IMG{
     width: 72vw;
-    height: 233vw;
+    height: 202vw;
     text-align: center;
 }
 @media screen and (max-width:768px) {
     .main-section-IMG{
         width: 72vw;
-        height: 233vw;
+        height: 202vw;
         text-align: center;
-        margin-top: 27vw;
+        margin-top: 26vw;
     }
 }
-
 .main-text-item{
     margin-top: 19vw;
 }
 
 .main-text-item div{
-    font-size: 20px;
+    font-size: 2vw;
     font-family: 'Kalam', cursive;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-family: 'Zen Maru Gothic', sans-serif;
