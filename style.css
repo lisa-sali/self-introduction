@@ -1165,6 +1165,87 @@ img{
 
 
 
+
+/*section-Skill*/
+.section-Skill{
+    margin-bottom: 15vw;
+}
+
+.section-Skill-title-img{
+    margin: auto;
+    width: 12vw;
+    height: 6vw;
+}
+@media screen and (max-width:768px) {
+    .section-Skill-title-img{
+        width: 15vw;
+        height: 8vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Skill-title-img{
+        width: 27vw;
+        height: 14vw;
+    }
+}
+
+.section-Skill-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+}
+@media screen and (max-width:768px) {
+    .section-Skill-img{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 22vw 22vw ;
+    }
+}
+@media screen and (max-width:428px) {
+    .section-Skill-img{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 28vw 28vw ;
+    }
+}
+
+.skill-img{
+    width: 11vw;
+    height: 9vw;
+    margin-right: 50px;
+}
+@media screen and (max-width:768px) {
+    .skill-img{
+        width: 22vw;
+        height: 19vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .skill-img{
+        width: 28vw;
+        height: 24vw;
+    }
+}
+
+.skill-vsc{
+    width: 14vw;
+    height: 9vw;
+}
+@media screen and (max-width:768px) {
+    .skill-vsc{
+        width: 27vw;
+        height: 19vw;
+    }
+}
+@media screen and (max-width:428px) {
+    .skill-vsc{
+        width: 31vw;
+        height:22vw;
+    }
+}
+
+
+
 /*section-Dream*/
 .section-Dream{
     display: flex;
